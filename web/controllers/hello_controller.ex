@@ -8,4 +8,7 @@ defmodule Hello.HelloController do
     def world(conn, %{ "name" => name}) do
         render conn, "world.html", name: name
     end
+    def world(conn, _params) do
+        render conn, "hello.html"
+    end
 end

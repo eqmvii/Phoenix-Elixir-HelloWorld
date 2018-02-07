@@ -1,0 +1,6 @@
+<%# Hello World template %>
+<%# you can use @ to access assigns from the controller %>
+
+<title>Hello</title>
+<h1>Welcome to your page.</h1>
+<p>Check out the <a href="/hello/YourNameGoesHere">dynamic hello world page</a> from here!</p>
